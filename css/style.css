@@ -210,12 +210,11 @@ h1{
 
 .technology{
     background-color: #F6F6F6;
-    height: 800px;
+    height: 750px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-    margin-bottom: 3rem;
     text-align: center;
         .technology-content{
             width: 50%;
@@ -235,13 +234,39 @@ h1{
             }
 }
 
-.footer1{
-    background-color: #23272A;
+.technology2{
+    background-color: #F6F6F6;
     height: 250px;
     display: flex;
     justify-content: center;
+    align-items: top;
+    text-align: center;
+        .h3{
+            background-image: url("../img/stars.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center top;
+            padding: 3rem;
+            font-size: 25px;
+        }
+        .scarica-tech{
+            padding: 0.75rem 1.75rem;
+            border-radius: 24px;
+            border-style: none;
+            background-color: #8EA1E1;
+            color: white;
+            font-weight: 500;
+            font-size: 16px;
+        }
+}
+
+.footer1{
+    background-color: #23272A;
+    height: 500px;
+    display: flex;
+    justify-content: center;
     margin-bottom: 0.5px;
-    padding-top: 0.25rem;
+    padding-top: 5rem;
         .footer1-content1{
             background-color: #F08080;
             width: 40%;
