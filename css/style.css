@@ -38,7 +38,7 @@ header{
 }
 
 .accedi{
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     background-color: white;
     border-style: none;
     border-radius: 20px;
@@ -62,16 +62,15 @@ header{
 }
 
 .jumbotron{
-    background-image: url("./img/jumbo.png");
-    height: 400px;
+    height: 300px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    background-image: url("../img/jumbo.png");
         .jumbotron-content{
-            background-color: #EE82EE;
-            width: 60%;
+            width: 50%;
             height: 80%;
             display: flex;
             flex-direction: column;
@@ -87,32 +86,62 @@ h1{
 }
 
 .paragrafo{
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
+    line-height: 1.25rem;
+    font-size: 14px;
 }
 
-.pulsanti{
-    
+.pulsanti .scarica{
+    padding: 0.75rem 1.5rem;
+    margin: 0.75rem;
+    border-radius: 20px;
+    border-style: none;
+    background-color: white;
+    font-weight: 500;
+}
+
+.pulsanti .apri{
+    padding: 0.75rem 1.5rem;
+    margin: 0.75rem;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #23272A;
+    color: white;
+    font-weight: 500;
 }
 
 .invite_only{
     display: flex;
     justify-content: center;
-    height: 250px;
+    height: 400px;
     align-items: center;
         .invite_only-sxbox{
-            background-color: #1E90FF;
+            background-image: url("img/item1.svg");
             width: 50%;
             height: 80%;
-            border: 3px dotted;
+        }
+            .item1{
+            width: 70%;
+            display: flex;
+            justify-content: flex-start;
         }
         .invite_only-dxbox{
-            background-color: #FFC0CB;
-            width: 30%;
+            width: 25%;
             height: 80%;
-            border-right: 3px dotted;
-            border-top: 3px dotted;
-            border-bottom: 3px dotted;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
+            .invito{
+                font-weight: 800;
+                line-height: 1.8rem;
+                margin-bottom: 1rem;
+            }
+            .paragrafo1{
+                font-size: 12px;
+                line-height: 1.25rem;
+            }
+
 }
 
 .community{
