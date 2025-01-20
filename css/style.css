@@ -117,33 +117,37 @@ h1{
 .invite_only{
     display: flex;
     justify-content: center;
-    height: 400px;
     align-items: center;
+    height: 400px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
         .invite_only-sxbox{
             background-image: url("img/item1.svg");
             width: 50%;
             height: 80%;
-        }
-            .item1{
-            width: 70%;
             display: flex;
             justify-content: flex-start;
         }
-        .invite_only-dxbox{
-            width: 25%;
+            .item1{
+            width: 100%;
+        }
+            .invite_only-dxbox{
+            width: 35%;
             height: 80%;
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
+            padding-right: 15rem;
         }
             .invito{
                 font-weight: 800;
-                line-height: 1.8rem;
+                line-height: 2.75rem;
                 margin-bottom: 1rem;
+                font-size: 35px;
             }
             .paragrafo1{
-                font-size: 12px;
-                line-height: 1.25rem;
+                font-size: 16px;
+                line-height: 1.5rem;
             }
 
 }
