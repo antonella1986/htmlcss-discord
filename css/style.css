@@ -218,7 +218,7 @@ h1{
     margin-bottom: 3rem;
     text-align: center;
         .technology-content{
-            width: 55%;
+            width: 50%;
             height: 80%;
             display: flex;
             flex-direction: column;
@@ -227,8 +227,11 @@ h1{
             .h2-tech{
                 font-weight: 700;
                 line-height: 2.75rem;
-                margin-bottom: 1.5rem;
+                margin-bottom: 1.25rem;
                 font-size: 35px;
+            }
+            .paragrafo-tech{
+                line-height: 1.5rem;
             }
 }
 
