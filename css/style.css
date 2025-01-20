@@ -262,49 +262,86 @@ h1{
 
 .footer1{
     background-color: #23272A;
-    height: 500px;
+    height: 400px;
     display: flex;
     justify-content: center;
     margin-bottom: 0.5px;
     padding-top: 5rem;
         .footer1-content1{
-            background-color: #F08080;
-            width: 40%;
+            width: 18%;
             height: 90%;
-            border: 3px dotted;
+            .h3-footer{
+                color: #8EA1E1;
+                margin-bottom: 1.5rem;
+                font-size: 26px;
+                font-weight: 700;
+            }
+
+            .lingua{
+                color: white;
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+            }
+                .flag{
+                    max-width: 25px;
+                    margin-right: 0.5rem;
+                }
+            .icone{
+                display: flex;
+                flex-direction: row;
+                margin-top: 1rem;
+            }
         }
         .footer1-content2{
-            background-color: #20B2AA;
-            width: 10%;
+            width: 13%;
             height: 90%;
-            border-right: 3px dotted white;
-            border-top: 3px dotted;
-            border-bottom: 3px dotted;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
         }
         .footer1-content3{
-            background-color: #20B2AA;
-            width: 10%;
+            width: 13%;
             height: 90%;
-            border-right: 3px dotted white;
-            border-top: 3px dotted;
-            border-bottom: 3px dotted;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
         }
         .footer1-content4{
-            background-color: #20B2AA;
-            width: 10%;
+            width: 13%;
             height: 90%;
-            border-right: 3px dotted white;
-            border-top: 3px dotted;
-            border-bottom: 3px dotted;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
         }
         .footer1-content5{
-            background-color: #20B2AA;
-            width: 10%;
+            width: 13%;
             height: 90%;
-            border-right: 3px dotted;
-            border-top: 3px dotted;
-            border-bottom: 3px dotted;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
         }
+}
+
+.footer-titoli{
+    color: #8EA1E1;
+    margin-bottom: 1rem;
+    font-size: 13px;
+}
+
+.footer-menu{
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+hr{
+    border: 0.25px solid #8EA1E1;
+    max-width: 70%;
+    align-items: center;
 }
 
 .footer2{
@@ -313,27 +350,24 @@ h1{
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+    padding-bottom: 20px;
         .footer2-content{
-            background-color: #7FFFD4;
-            width: 80%;
+            width: 70%;
             height: 80%;
             display: flex;
             justify-content: space-between;
             padding-top: 0.75rem;
             padding-bottom: 1rem;
         }
-            .logo-footer{
-                display: flex;
-                justify-content: flex-start;
-                padding: 0.25rem;
-                background-color: #F08080;
-                border: 3px dotted;
-            }
-            .bottone{
+            .registrati{
                 display: flex;
                 justify-content: flex-end;
-                background-color: #F08080;
-                border: 3px dotted;
-                padding: 0.25rem;
+                padding: 0.5rem 1rem;
+                border-radius: 24px;
+                border-style: none;
+                background-color: #8EA1E1;
+                color: white;
+                font-weight: 500;
+                font-size: 13px;
             }
 }
