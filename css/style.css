@@ -153,14 +153,23 @@ h1{
         }
 }
 
+.wave-top{
+    color: #F6F6F6;
+    margin-bottom: -1.5rem;
+}
+
+.wave-bottom{
+    color: #F6F6F6;
+    margin-top: -1.5rem;
+    rotate: 180deg;
+}
+
 .community{
     display: flex;
     justify-content: center;
     height: 600px;
     align-items: center;
     background-color: #F6F6F6;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
         .community-sxbox{
             width: 35%;
             height: 80%;
@@ -214,7 +223,6 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
     text-align: center;
         .technology-content{
             width: 50%;
@@ -262,7 +270,7 @@ h1{
 
 .footer1{
     background-color: #23272A;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     margin-bottom: 0.5px;
@@ -336,6 +344,10 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.lista{
+    padding: 0.5rem 0;
 }
 
 hr{
